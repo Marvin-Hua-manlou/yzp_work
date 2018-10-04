@@ -12,8 +12,6 @@
   - 通过鼠标拖曳或者 ”ctrl + 滚轮“的操作，完成图片大小的调节。
   - 在左边的状态栏中，找到”position"字样，调节X,Y项都为0，这个操作吧图片初始位置定义在了 
                 左上方对其的地方。
-                
-![ ](https://user-images.githubusercontent.com/43528369/46474965-cd0fca80-c816-11e8-87c7-bfc447d552a7.jpg)
   2. 添加图层选项，操作如下：
        选择页面右下角的layer选项，你会看到一个图层为0，把它更名为Blackboard（不重要），接着再 
        选择“+”符号选项，添加一个图层，改名为Main（同样不重要），至此图层添加完成。
@@ -22,11 +20,16 @@
        把 它们添加到界面上来呢？可以选择用鼠标直接拖曳（这是最简单的方式）。接着，要完成的工 
        作是双击左键，添加Mouse和Keyboard选项，以方便玩家的操作，至此图层添加完成。整个布景 
        也暂告一段落。
+       
 ![player](https://user-images.githubusercontent.com/43528369/46475524-55429f80-c818-11e8-8174-959a2055c7a0.png)
+
 ![monster](https://user-images.githubusercontent.com/43528369/46475530-57a4f980-c818-11e8-9c6a-cea55a21a3ab.png)
+
 ![bullet](https://user-images.githubusercontent.com/43528369/46475536-5b388080-c818-11e8-8516-fdd0cc52ea08.png)
+
 ![explode](https://user-images.githubusercontent.com/43528369/46475542-5ecc0780-c818-11e8-892d-08ead9939d7f.png)
 
+![ ](https://user-images.githubusercontent.com/43528369/46474965-cd0fca80-c816-11e8-87c7-bfc447d552a7.jpg)
 
 
 * 添加游戏行为
