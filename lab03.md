@@ -7,7 +7,7 @@
 
 
 
-![](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/222281717286452580.jpg)
+![SILICONVALLEY](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/222281717286452580.jpg)
 
 
 
@@ -26,4 +26,4 @@
 ---
 &emsp;&emsp;电影介绍了早期的IT产业的雏形，也通过影片介绍了很多在当时乃至现在，从美国，到全球都极具影响力的企业，向我们展示了计算机技术的强大之处，
 同时也告诉我们，做好技术关，不仅可以赚钱，最重要的，是可以改变世界！
-![](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/%E8%A7%86%E9%A2%91.gif)
+![gif](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/%E8%A7%86%E9%A2%91.gif)
