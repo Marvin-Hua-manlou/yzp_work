@@ -55,6 +55,8 @@
 排斥这种高水准的消费，反而把它视为享受，这正是喜乐之所在。
 
 
-![](https://github.com/yangzhanp/yangzhanp----homework/blob/ghpages/%E4%B8%8B%E8%BD%BD%20(2).jpg)![](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/%E4%B8%8B%E8%BD%BD%20(3).jpg)
+![](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/%E4%B8%8B%E8%BD%BD%20(3).jpg) ![](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/%E4%B8%8B%E8%BD%BD%20(2).jpg)
+
+
 
 
