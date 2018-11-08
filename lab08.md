@@ -2,7 +2,7 @@
 ---
 #### 自上而下的编程方法是正规编程设计的基础,下图中说明了步骤细节:
 
-![](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/20160111161606048.png)
+![](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/20160111161606048_%E5%89%AF%E6%9C%AC.png)
 
 1. 清晰地陈述你所要解决的问题
 2. 定义程序所需的输入量和程序所产生的输出量
@@ -12,6 +12,8 @@
 
 ## 洗衣机的例子
 ### 洗衣机
+
+![](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/u%3D3882030335%2C2942438075%26fm%3D11%26gp%3D0.jpg)
 1. **注水：**用户需要选择水量，并注入对应水量。 
 2. **洗涤：**通过底部转盘旋转，直筒摇动使衣物与筒壁摩擦以达到洗涤的目的。 
 3. **漂洗：**放水，将桶中的水顺管排出，再次注水淹没衣物，通过底部转盘旋转，将衣物中残余洗涤剂洗出，再次排水。 
