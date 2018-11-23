@@ -24,9 +24,9 @@
 
 ##### 整个游戏的面向对象的编程方式如下：
 ---
-![](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/images/%E5%85%89%E9%80%9FPDF%E6%88%AA%E5%9B%BE20181117122042.png)
-![](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/images/%E5%85%89%E9%80%9FPDF%E6%88%AA%E5%9B%BE20181117122333.png)
-![](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/images/%E5%85%89%E9%80%9FPDF%E6%88%AA%E5%9B%BE20181117122424.png)
+![](images/%E5%85%89%E9%80%9FPDF%E6%88%AA%E5%9B%BE20181117122042.png)
+![](images/%E5%85%89%E9%80%9FPDF%E6%88%AA%E5%9B%BE20181117122333.png)
+![](images/%E5%85%89%E9%80%9FPDF%E6%88%AA%E5%9B%BE20181117122424.png)
 
 ### 4. 小结
 
