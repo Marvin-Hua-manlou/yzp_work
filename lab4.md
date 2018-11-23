@@ -7,13 +7,13 @@
 ---
 **$$e^x$$展开式**
 
-![](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/images/1.gif)
+![](images/1.gif)
 
 ### 2. 求极限
 ---
 **$$\limit_{x\to 0}\frac{\sinc(x)-x^2}{x^3}$$**
 
-![](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/images/2.gif)
+![](images/2.gif)
 
 
 ## 线代问题
@@ -23,13 +23,13 @@
 ### 1.矩阵化简求解
 ---
 #### 题目
-![](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/images/825793392715580682.jpg)
+![](images/825793392715580682.jpg)
 #### 正解
-![](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/images/3.gif)
+![](images/3.gif)
 
 ### 2. 求逆阵
 ---
 #### 题目
-![](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/images/578897380115418570.jpg)
+![](images/578897380115418570.jpg)
 #### 正解
-![](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/images/4.gif)
+![](images/4.gif)
