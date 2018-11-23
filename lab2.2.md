@@ -38,4 +38,4 @@
 
 ### 5. GIF展示
 
-![](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/images/shipin.gif)
+![](images/shipin.gif)
