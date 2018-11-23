@@ -6,12 +6,13 @@
 ### 1. 泰勒分解
 ---
 **$$e^x$$展开式**
----
+
 ![](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/images/1.gif)
 
 ### 2. 求极限
 ---
-**\limit_{x\to 0}\frac{\sinc(x)-x^2}{x^3}**
+**$$\limit_{x\to 0}\frac{\sinc(x)-x^2}{x^3}$$**
+
 ![](https://github.com/yangzhanp/yangzhanp----homework/blob/gh-pages/images/2.gif)
 
 
