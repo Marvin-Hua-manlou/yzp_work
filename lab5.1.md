@@ -105,7 +105,7 @@ void output(void)
 	}
 }
 
-//实现放食物的函数  
+//放食物的函数  
 void put_money(void)
 {
 	srand(time(NULL));
@@ -209,3 +209,4 @@ int gameover(void)
 	return 0;
 }
 ```
+![](images/%E5%9B%BE%E5%BD%A2.gif)
