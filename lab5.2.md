@@ -4,6 +4,7 @@
 ---
 ```c
 #include <stdio.h>
+#include<cmath>
 #include <string.h>
 #include <sys/time.h>
 #include <sys/types.h>
@@ -231,20 +232,16 @@ int main()
 	"*          *",
 	"*          *",
 	"************"};
-
-//初始化蛇身位置（横着是X，竖着是Y） 
-	int snakeY[SNAKE_MAX_LENGTH]={5,4,3,2,1};
-	int snakeX[SNAKE_MAX_LENGTH]={1,1,1,1,1};
-	int snakeLength=5;
-//定义食物的位置 
-	int moneyX;
-	int moneyY; 
-//设置mark,是0的话表示暂时没有食物，不是就说明有了食物。 
-	int mark = 0; 
+    snackMove(x,y);	
+    wheregonext(hx,hy,fx,fy);
+    int moneyX;
+    int moneyY; 
+    int mark = 0; 
 	
     printf("pressed `q` to quit!\n");
     while(1) {
-
+    		
+	    put_money();
             if( kbhit() ) {
                     const int key = getchar();
                     printf("%c pressed\n", key);
