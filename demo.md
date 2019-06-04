@@ -95,11 +95,12 @@ end
 ### Small image
 
 ![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
+![](https://guides.github.com/activities/hello-world/branching.png)
 ### Large image
 
-![](https://guides.github.com/activities/hello-world/branching.png)
+
 ![](http://zhaox.github.io/assets/images/HashMap.png)
+![](http://zhaox.github.io/assets/images/HashTable.png)
 
 
 ### Definition lists can be used with HTML syntax.
