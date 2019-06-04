@@ -99,6 +99,7 @@ end
 ### Large image
 
 ![](https://guides.github.com/activities/hello-world/branching.png)
+![](http://zhaox.github.io/assets/images/HashMap.png)
 
 
 ### Definition lists can be used with HTML syntax.
