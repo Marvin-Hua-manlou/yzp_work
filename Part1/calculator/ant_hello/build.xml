@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="gbk"?>
+<!--Hello:define name of project-->
+
+<project name="Hello" default="run" basedir=".">
+
+   <!-- define documents -->
+   <property name="src_path" value="src"/>
+   <property name="dest_path" value="classes"/>
+   <property name="hello" value="hello.jar"/>
+
+   <!-- define tar: initilzation -->
+   <target name="init">
+   <mkdir dir="${dest_path}"/>
+   </target>
+
+   <!-- define compile way,put classes to dest_path -->
+   <target name="compile" depends="init">
+   <javac srcdir="${src_path}" destdir="${dest_path}"/>
+   </target>
+
+   <!-- define tar:aim name hello-->
+   <target name="build" depends="compile">
+   <jar jarfile="${hello}" basedir="${dest_path}"/>
+   </target>
+
+   <!-- define tar: run the code-->
+   <target name="run" depends="build">
+   <java classname="yzp.ant.Hello" classpath="${hello_jar}"/>
+   </target>
+
+</project>

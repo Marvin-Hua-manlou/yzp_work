@@ -1,4 +1,0 @@
-外网面板地址: http://106.54.76.28:8888/fdbc853d
-内网面板地址: http://172.17.0.8:8888/fdbc853d
-username: 59xmyifj
-password: 50d6af7e
