@@ -1,0 +1,115 @@
+Searching the 1th times nodes:   Current state:{5,1,5,2,7,0,4,6,3,8}
+Searching the 2th times nodes:   Current state:{8,1,5,2,7,3,4,6,0,8}
+Searching the 3th times nodes:   Current state:{9,1,5,2,7,3,4,6,8,0}
+Searching the 4th times nodes:   Current state:{6,1,5,2,7,3,0,6,8,4}
+Searching the 5th times nodes:   Current state:{5,1,5,2,7,0,3,6,8,4}
+Searching the 6th times nodes:   Current state:{2,1,0,2,7,5,3,6,8,4}
+Searching the 7th times nodes:   Current state:{3,1,2,0,7,5,3,6,8,4}
+Searching the 8th times nodes:   Current state:{6,1,2,3,7,5,0,6,8,4}
+Searching the 9th times nodes:   Current state:{9,1,2,3,7,5,4,6,8,0}
+Searching the 10th times nodes:   Current state:{8,1,2,3,7,5,4,6,0,8}
+Searching the 11th times nodes:   Current state:{5,1,2,3,7,0,5,6,8,4}
+Searching the 12th times nodes:   Current state:{7,1,2,3,7,5,4,0,6,8}
+Searching the 13th times nodes:   Current state:{4,1,2,3,0,5,4,7,6,8}
+Searching the 14th times nodes:   Current state:{5,1,2,3,5,0,4,7,6,8}
+Searching the 15th times nodes:   Current state:{6,1,2,3,5,4,0,7,6,8}
+Searching the 16th times nodes:   Current state:{5,1,2,3,7,0,4,6,5,8}
+Searching the 17th times nodes:   Current state:{6,1,2,3,7,4,0,6,5,8}
+Searching the 18th times nodes:   Current state:{8,1,2,3,7,8,5,6,0,4}
+Searching the 19th times nodes:   Current state:{4,1,2,3,0,7,5,6,8,4}
+Searching the 20th times nodes:   Current state:{8,1,2,3,5,6,4,7,0,8}
+Searching the 21th times nodes:   Current state:{9,1,2,3,5,6,4,7,8,0}
+Searching the 22th times nodes:   Current state:{6,1,2,3,5,6,0,7,8,4}
+Searching the 23th times nodes:   Current state:{5,1,2,3,5,0,6,7,8,4}
+Searching the 24th times nodes:   Current state:{4,1,2,3,0,5,6,7,8,4}
+Searching the 25th times nodes:   Current state:{1,0,2,3,1,5,6,7,8,4}
+Searching the 26th times nodes:   Current state:{7,1,2,3,7,5,6,0,8,4}
+Searching the 27th times nodes:   Current state:{8,1,2,3,5,8,6,7,0,4}
+Searching the 28th times nodes:   Current state:{2,2,0,3,1,5,6,7,8,4}
+Searching the 29th times nodes:   Current state:{8,1,2,3,7,5,6,8,0,4}
+Searching the 30th times nodes:   Current state:{2,1,0,3,5,2,6,7,8,4}
+Searching the 31th times nodes:   Current state:{1,0,1,3,5,2,6,7,8,4}
+Searching the 32th times nodes:   Current state:{7,1,2,3,5,8,6,0,7,4}
+Searching the 33th times nodes:   Current state:{5,2,5,3,1,0,6,7,8,4}
+Searching the 34th times nodes:   Current state:{5,1,2,3,7,0,6,8,5,4}
+Searching the 35th times nodes:   Current state:{9,1,2,3,5,8,6,7,4,0}
+Searching the 36th times nodes:   Current state:{9,1,2,3,7,5,6,8,4,0}
+Searching the 37th times nodes:   Current state:{4,2,5,3,0,1,6,7,8,4}
+Searching the 38th times nodes:   Current state:{3,2,3,0,1,5,6,7,8,4}
+Searching the 39th times nodes:   Current state:{4,5,1,3,0,2,6,7,8,4}
+Searching the 40th times nodes:   Current state:{4,1,2,3,0,8,6,5,7,4}
+Searching the 41th times nodes:   Current state:{4,1,2,3,0,7,6,8,5,4}
+Searching the 42th times nodes:   Current state:{6,1,2,3,5,8,0,7,4,6}
+Searching the 43th times nodes:   Current state:{6,1,2,3,7,5,0,8,4,6}
+Searching the 44th times nodes:   Current state:{3,1,2,0,5,6,3,7,8,4}
+Searching the 45th times nodes:   Current state:{8,2,5,3,1,8,6,7,0,4}
+Searching the 46th times nodes:   Current state:{1,0,5,3,2,1,6,7,8,4}
+Searching the 47th times nodes:   Current state:{5,5,1,3,2,0,6,7,8,4}
+Searching the 48th times nodes:   Current state:{5,1,2,3,8,0,6,5,7,4}
+Searching the 49th times nodes:   Current state:{7,1,2,3,8,7,6,0,5,4}
+Searching the 50th times nodes:   Current state:{3,1,3,0,5,2,6,7,8,4}
+Searching the 51th times nodes:   Current state:{5,1,2,3,5,0,8,7,4,6}
+Searching the 52th times nodes:   Current state:{4,1,2,3,0,5,8,7,4,6}
+Searching the 53th times nodes:   Current state:{8,1,2,3,5,4,8,7,0,6}
+Searching the 54th times nodes:   Current state:{7,1,2,3,7,5,8,0,4,6}
+Searching the 55th times nodes:   Current state:{8,1,2,3,7,5,8,4,0,6}
+Searching the 56th times nodes:   Current state:{5,1,2,3,7,0,8,4,5,6}
+Searching the 57th times nodes:   Current state:{6,1,2,3,7,8,0,4,5,6}
+Searching the 58th times nodes:   Current state:{9,1,2,3,7,8,6,4,5,0}
+Searching the 59th times nodes:   Current state:{8,1,2,3,7,8,6,4,0,5}
+Searching the 60th times nodes:   Current state:{5,1,2,3,7,0,6,4,8,5}
+Searching the 61th times nodes:   Current state:{4,1,2,3,0,7,6,4,8,5}
+Searching the 62th times nodes:   Current state:{7,1,2,3,4,7,6,0,8,5}
+Searching the 63th times nodes:   Current state:{8,1,2,3,4,7,6,8,0,5}
+Searching the 64th times nodes:   Current state:{5,1,2,3,4,0,6,8,7,5}
+Searching the 65th times nodes:   Current state:{7,1,2,3,7,8,6,0,4,5}
+Searching the 66th times nodes:   Current state:{4,1,2,3,0,8,6,7,4,5}
+Searching the 67th times nodes:   Current state:{5,1,2,3,8,0,6,7,4,5}
+Searching the 68th times nodes:   Current state:{8,1,2,3,8,4,6,7,0,5}
+Searching the 69th times nodes:   Current state:{4,1,2,3,0,4,6,8,7,5}
+Searching the 70th times nodes:   Current state:{9,1,2,3,4,7,6,8,5,0}
+Searching the 71th times nodes:   Current state:{6,1,2,3,4,7,0,8,5,6}
+Searching the 72th times nodes:   Current state:{5,1,2,3,4,0,7,8,5,6}
+Searching the 73th times nodes:   Current state:{8,1,2,3,4,5,7,8,0,6}
+Searching the 74th times nodes:   Current state:{7,1,2,3,4,5,7,0,8,6}
+Searching the 75th times nodes:   Current state:{4,1,2,3,0,5,7,4,8,6}
+Searching the 76th times nodes:   Current state:{9,1,2,3,4,5,7,8,6,0}
+Searching the 77th times nodes:   Current state:{6,1,2,3,4,5,0,8,6,7}
+Searching the 78th times nodes:   Current state:{5,1,2,3,5,0,7,4,8,6}
+Searching the 79th times nodes:   Current state:{4,1,2,3,0,4,7,8,5,6}
+Searching the 80th times nodes:   Current state:{9,1,2,3,8,4,6,7,5,0}
+Searching the 81th times nodes:   Current state:{1,0,2,3,1,8,6,7,4,5}
+Searching the 82th times nodes:   Current state:{6,1,2,3,8,4,0,7,5,6}
+Searching the 83th times nodes:   Current state:{2,1,0,3,4,2,6,8,7,5}
+Searching the 84th times nodes:   Current state:{1,0,2,3,1,5,7,4,8,6}
+Searching the 85th times nodes:   Current state:{3,1,2,0,4,5,3,8,6,7}
+Searching the 86th times nodes:   Current state:{2,1,0,3,4,2,7,8,5,6}
+Searching the 87th times nodes:   Current state:{3,1,2,0,7,8,3,4,5,6}
+Searching the 88th times nodes:   Current state:{7,1,2,3,8,4,6,0,7,5}
+Searching the 89th times nodes:   Current state:{6,1,2,3,5,7,0,4,8,6}
+Searching the 90th times nodes:   Current state:{9,1,2,3,5,7,6,4,8,0}
+Searching the 91th times nodes:   Current state:{8,1,2,3,5,7,6,4,0,8}
+Searching the 92th times nodes:   Current state:{5,1,2,3,5,0,6,4,7,8}
+Searching the 93th times nodes:   Current state:{4,1,2,3,0,5,6,4,7,8}
+Searching the 94th times nodes:   Current state:{7,1,2,3,4,5,6,0,7,8}
+Searching the 95th times nodes:   Current state:{8,1,2,3,4,5,6,7,0,8}
+Jigsaw Completed
+Begin state:{5,1,5,2,7,0,4,6,3,8}
+End state:{9,1,2,3,4,5,6,7,8,0}
+Solution Path is: 
+Begin::->
+{5,1,5,2,7,0,4,6,3,8}->{8,1,5,2,7,3,4,6,0,8}->{9,1,5,2,7,3,4,6,8,0}->{6,1,5,2,7,3,0,6,8,4}->
+{5,1,5,2,7,0,3,6,8,4}->{2,1,0,2,7,5,3,6,8,4}->{3,1,2,0,7,5,3,6,8,4}->{6,1,2,3,7,5,0,6,8,4}->
+{9,1,2,3,7,5,4,6,8,0}->{8,1,2,3,7,5,4,6,0,8}->{7,1,2,3,7,5,4,0,6,8}->{4,1,2,3,0,5,4,7,6,8}->
+{5,1,2,3,5,0,4,7,6,8}->{8,1,2,3,5,6,4,7,0,8}->{9,1,2,3,5,6,4,7,8,0}->{6,1,2,3,5,6,0,7,8,4}->
+{5,1,2,3,5,0,6,7,8,4}->{8,1,2,3,5,8,6,7,0,4}->{9,1,2,3,5,8,6,7,4,0}->{6,1,2,3,5,8,0,7,4,6}->
+{5,1,2,3,5,0,8,7,4,6}->{4,1,2,3,0,5,8,7,4,6}->{7,1,2,3,7,5,8,0,4,6}->{8,1,2,3,7,5,8,4,0,6}->
+{5,1,2,3,7,0,8,4,5,6}->{6,1,2,3,7,8,0,4,5,6}->{9,1,2,3,7,8,6,4,5,0}->{8,1,2,3,7,8,6,4,0,5}->
+{5,1,2,3,7,0,6,4,8,5}->{4,1,2,3,0,7,6,4,8,5}->{7,1,2,3,4,7,6,0,8,5}->{8,1,2,3,4,7,6,8,0,5}->
+{9,1,2,3,4,7,6,8,5,0}->{6,1,2,3,4,7,0,8,5,6}->{5,1,2,3,4,0,7,8,5,6}->{8,1,2,3,4,5,7,8,0,6}->
+{7,1,2,3,4,5,7,0,8,6}->{4,1,2,3,0,5,7,4,8,6}->{5,1,2,3,5,0,7,4,8,6}->{6,1,2,3,5,7,0,4,8,6}->
+{9,1,2,3,5,7,6,4,8,0}->{8,1,2,3,5,7,6,4,0,8}->{5,1,2,3,5,0,6,4,7,8}->{4,1,2,3,0,5,6,4,7,8}->
+{7,1,2,3,4,5,6,0,7,8}->{8,1,2,3,4,5,6,7,0,8}->{9,1,2,3,4,5,6,7,8,0}->
+->::End
+The number of searched nodes are:95
+The size of the solution path is:46
