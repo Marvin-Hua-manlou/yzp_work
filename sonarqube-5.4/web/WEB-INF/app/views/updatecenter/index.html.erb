@@ -1,0 +1,7 @@
+<% content_for :extra_script do %>
+  <script>
+    window.sonarqube.urlRoot = baseUrl + '/updatecenter';
+  </script>
+  <script src="/js/bundles/update-center.js?v=<%= sonar_version -%>"></script>
+<% end %>
+

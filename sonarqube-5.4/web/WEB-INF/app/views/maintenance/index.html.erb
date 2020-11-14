@@ -1,0 +1,7 @@
+<% content_for :extra_script do %>
+  <script>
+    window.sonarqube.setup = false;
+  </script>
+  <script src="/js/bundles/maintenance.js?v=<%= sonar_version -%>"></script>
+<% end %>
+

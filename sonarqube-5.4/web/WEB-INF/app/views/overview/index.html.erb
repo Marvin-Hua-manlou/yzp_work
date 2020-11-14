@@ -1,0 +1,134 @@
+<%
+   links_size = @resource.project_links.size
+
+   profiles = []
+   if @snapshot
+     qprofiles_measure = @snapshot.measure(Metric::QUALITY_PROFILES)
+     if qprofiles_measure && !qprofiles_measure.data.blank?
+       profiles = JSON.parse qprofiles_measure.data
+     end
+   end
+   profiles_size = profiles.size
+
+   is_gate_default = false
+   gate = nil
+   root = @resource.root_project
+   gate_id = Property.value('sonar.qualitygate', root.id, nil)
+   unless gate_id
+     gate_id=Property.value('sonar.qualitygate', nil, nil)
+     is_gate_default = false || gate_id
+   end
+   if gate_id
+     gate = Internal.quality_gates.get(gate_id.to_i)
+   end
+%>
+
+<%
+   if @snapshot
+     m = @snapshot.measure(Metric::QUALITY_GATE_DETAILS)
+     alert_status = @snapshot.measure(Metric::ALERT_STATUS)
+     if m && !m.data.blank?
+       details = JSON.parse m.data
+       m.alert_status = details['level']
+       raw_conditions = details['conditions']
+       conditions = []
+       raw_conditions.each do |condition|
+         if !metric(condition['metric']).nil?
+           conditions << condition
+         end
+       end
+     end
+   end
+%>
+
+<% content_for :extra_script do %>
+  <script>
+    (function () {
+      var component = {
+        id: '<%= escape_javascript @resource.uuid %>',
+        key: '<%= escape_javascript @resource.key %>',
+        description: '<%= escape_javascript @resource.description %>',
+        hasSnapshot: <%= @snapshot ? true : false %>,
+        periods: [
+          <%
+            if @snapshot && @snapshot.project_snapshot.periods?
+              (1..5).each do |index|
+                if @snapshot.period_mode(index)
+          %>
+          {
+            index: '<%= index -%>',
+            mode: '<%= @snapshot.period_mode(index) -%>',
+            modeParam: '<%= @snapshot.period_param(index) -%>',
+            date: '<%= @snapshot.period_datetime(index) ? @snapshot.period_datetime(index).strftime('%FT%T%z') : "" -%>'
+          },
+          <% end %>
+          <% end %>
+          <% end %>
+        ],
+        links: [
+          <% @resource.project_links.sort.each_with_index do |link, index| %>
+          {
+            name: '<%= escape_javascript link.name -%>',
+            type: '<%= escape_javascript link.link_type -%>',
+            href: '<%= escape_javascript link.href -%>'
+          }<% if index < links_size - 1 %>, <% end -%>
+          <% end %>
+        ],
+        profiles: [
+          <% profiles.each_with_index do |profile, index| %>
+          {
+            name: '<%= escape_javascript profile['name'] -%>',
+            key: '<%= escape_javascript profile['key']-%>',
+            language: '<%= escape_javascript Api::Utils.language_name(profile['language']) -%>'
+          }<% if index < profiles_size - 1 %>, <% end -%>
+          <% end %>
+        ],
+        <% if gate %>
+        gate: {
+          name: '<%= escape_javascript gate.getName() -%>',
+          key: <%= escape_javascript gate_id -%>,
+          isDefault: <%= is_gate_default -%>
+        }
+        <% end %>
+      };
+
+      <% if m %>
+      var gate = {
+        level: '<%= m.alert_status -%>',
+        conditions: [
+          <% conditions.sort_by {|condition| [ -condition['level'].length, metric(condition['metric']).short_name] }.each do |condition| %>
+          <% metric = metric(condition['metric']) %>
+          {
+            level: '<%= escape_javascript condition['level'] %>',
+            metric: {
+              name: '<%= escape_javascript metric.name %>',
+              type: '<%= escape_javascript metric.value_type %>'
+            },
+            op: '<%= escape_javascript condition['op'] %>',
+            period: '<%= condition['period'] %>',
+            warning: '<%= escape_javascript condition['warning'] %>',
+            error: '<%= escape_javascript condition['error'] %>',
+            actual: '<%= escape_javascript condition['actual'] %>',
+          },
+          <% end %>
+        ]
+      };
+      <% else %>
+        <% if alert_status && !alert_status.alert_status.blank? %>
+          var gate = {
+            level: '<%= alert_status.alert_status -%>',
+            text: '<%= alert_status.alert_text -%>'
+          };
+        <% else %>
+          var gate = null;
+         <% end %>
+      <% end %>
+
+      window.sonarqube.overview = {
+        component: component,
+        gate: gate
+      };
+    })();
+  </script>
+  <script src="/js/bundles/overview.js?v=<%= sonar_version -%>"></script>
+<% end %>

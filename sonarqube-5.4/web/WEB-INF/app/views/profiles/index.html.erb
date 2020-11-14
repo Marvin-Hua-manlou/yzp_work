@@ -1,0 +1,6 @@
+<% content_for :extra_script do %>
+  <script>
+    window.sonarqube.urlRoot = baseUrl + '/profiles';
+  </script>
+  <script src="/js/bundles/quality-profiles.js?v=<%= sonar_version -%>"></script>
+<% end %>

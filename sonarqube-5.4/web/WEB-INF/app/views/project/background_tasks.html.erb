@@ -1,0 +1,6 @@
+<% content_for :extra_script do %>
+  <script>
+    window.sonarqube.componentId = '<%= @project.uuid -%>';
+  </script>
+  <script src="/js/bundles/background-tasks.js?v=<%= sonar_version -%>"></script>
+<% end %>
